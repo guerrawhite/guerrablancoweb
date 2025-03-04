@@ -1,15 +1,7 @@
 import Image from "next/image";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import { Montserrat } from "next/font/google";
 import Link from 'next/link';
-
-const montserrat = Montserrat({
-  display:'swap',
-  subsets: ['latin'],
-  preload: true, 
-  fallback: ['Arial', 'sans-serif'],
-});
 
 export default function Proyectos() {
 
