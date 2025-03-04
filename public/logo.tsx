@@ -3,6 +3,8 @@ import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
     display:'swap',
+    subsets: ['latin'],
+    preload: true,
     fallback: ['Arial', 'sans-serif'],
 });
 
