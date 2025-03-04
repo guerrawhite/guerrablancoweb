@@ -19,25 +19,22 @@ export default function Home() {
         <div className="text-center w-full">
           <h1 className={`${montserrat.className} text-2xl font-bold text-center w-full`}>Carlos Guerra Blanco</h1>
           <h2 className={`${montserrat.className} text-xl text-center w-full`}>Full Stack Developer</h2>
-        </div>
-        <div className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <p className="max-w-96 text-center">Programador en constante evolución 🚀. 8 años de experiencia en desarrollo 
+          <p className="max-w-96 text-center text-sm font-[family-name:var(--font-geist-mono)]">Programador en constante evolución 🚀. 8 años de experiencia en desarrollo 
             web. Siempre buscando nuevos retos. Código limpio con un estilo minimalista. Si hay un problema, 
             seguro que encuentro la mejor forma de solucionarlo.</p>
-          <code className="relative border-t-12 border-solid border-white max-w-48 block text-center p-1.5 mx-auto mt-4 rounded bg-[#420042] text-[#09FF00]">
+        </div>
+        <code className="relative border-t-12 border-solid border-white max-w-55 block text-center p-1.5 mx-auto rounded bg-[#420042] text-[#09FF00]">
             Java, JSP, Spring, JQuery, Javascript, MySQL, Git, HTML, CSS, React, Next.js, Node.js
             <span className="block p-1 bg-[#ff0000] w-1 h-1 rounded-full absolute -top-2.5"></span>
             <span className="block p-1 bg-[#a0a0a0] w-1 h-1 rounded-full absolute -top-2.5 left-4"></span>
             <span className="block p-1 bg-[#00d60c] w-1 h-1 rounded-full absolute -top-2.5 left-6.5"></span>
-          </code>
-        </div>
-
+        </code>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Link className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+          <Link className="rounded-full border border-solid border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
             href="/contacto">
             Contacto
           </Link>
-          <Link className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+          <Link className="rounded-full border border-solid border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
             href="/proyectos">
             Proyectos
           </Link>

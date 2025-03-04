@@ -3,7 +3,7 @@ import Logo from "../../../public/logo";
 
 export default function Header() {
   return (
-    <header className="w-full text-white shadow-md text-center">
+    <header className="w-full text-white text-center">
       <Logo/>
       {/*<nav>
         <ul className="flex space-x-4">
