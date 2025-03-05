@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Carlos Guerra Blanco",
-  description: "Personal Website",
+  title: "CGB - FullStack Developer",
+  description: "Personal Website de Carlos Guerra Blanco, FullStack Developer con más de 8 años de experiencia en el desarrollo web",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
